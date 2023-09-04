@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(254, 149, 21);
+    position: relative;
+    height: 95vh;
+}
+.box{
+    background-color: white;
+    width: 28%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+.inside-box h1{
+    font-size: 2.4rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.inside-box input{
+    border: 2px solid black;
+    font-size: 1.6rem;
+    padding: 1rem 0.8rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    color: rgb(254, 149, 21);
+}
+.enteremail::placeholder{
+    color: rgb(254, 149, 21);
+}
+.inside-box button{
+    background-color: rgb(254, 149, 21);
+    border: none;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
